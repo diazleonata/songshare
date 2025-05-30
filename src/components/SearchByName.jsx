@@ -31,7 +31,7 @@ export default function CheckSongs() {
       <div className="flex flex-col sm:flex-row gap-3 mb-6 items-center">
   <input
     type="text"
-    placeholder="Enter recipient's name"
+    placeholder="Enter name"
     value={name}
     onChange={(e) => setName(e.target.value)}
     className="flex-grow px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm placeholder-gray-400 transition w-full sm:w-auto"

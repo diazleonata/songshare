@@ -6,7 +6,7 @@ export default function Header() {
       <h1 className="text-3xl font-bold text-gray-900 tracking-tight">🎶 SongShare</h1>
       <nav style={{ marginTop: '5px' }}>
         <Link to="/" style={{ marginRight: '10px' }}>Send a Song</Link>
-        <Link to="/check">Check Songs</Link>
+        <Link to="/check">Search Name</Link>
       </nav>
     </header>
   )
